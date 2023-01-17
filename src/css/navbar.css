@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,600,700italic|Jost:700|Roboto:700,700italic");
+
+.navbar {
+  align-items: flex-start;
+  background-color: var(--black-2);
+  display: flex;
+  gap: 50%;
+  height: 50px;
+  left: 0;
+  padding: 14px 80px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.caf-zelda {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 50px;
+  min-width: 200px;
+  margin: 0;
+}
+
+.navbar-1 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  gap: 20px;
+  margin-top: 1px;
+  width: 722px;
+}
+
+.navbar-link {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  width: fit-content;
+  text-decoration: none;
+}
