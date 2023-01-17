@@ -12,14 +12,14 @@ const Navigation = (props) => {
         <div className="navbar-1 montserrat-semi-bold-white-16px">
           <NavLink
             style={{ textDecoration: "none", color: "inherit" }}
-            to="/test"
+            to="/LeCafeZelda"
           >
             <div className="navbar-link">QUI SOMMES-NOUS ?</div>
           </NavLink>
 
           <NavLink
             style={{ textDecoration: "none", color: "inherit" }}
-            to="/test"
+            to="/LesArticles"
           >
             <div className="navbar-link">NOS ARTICLES</div>
           </NavLink>
