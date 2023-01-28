@@ -1,6 +1,7 @@
 import { Navigate, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Test from "./pages/Test";
+import CafeZelda from "./pages/CafeZelda";
+import Articles from "./pages/Articles";
 import Navigation from "./components/Navigation";
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/test" element={<Test />} />
+        <Route path="/LeCafeZelda" element={<CafeZelda />} />
+        <Route path="/LesArticles" element={<Articles />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </div>
