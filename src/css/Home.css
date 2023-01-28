@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?familly=Montserrat:400,700,600,700italic|Jost:700|Roboto:700,700italic");
+
+.HomePage {
+}
+
+.ImgLogo {
+  position: relative;
+  border-radius: 1em;
+  text-align: center;
+
+  margin-top: 10px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.BodySite {
+  margin: 0px 300px 0px 300px;
+  position: relative;
+  background-color: #ffffff;
+  opacity: 1;
+  border-radius: 1em;
+  margin-top: -5px;
+  z-index: 5;
+  padding-bottom: 50%;
+}
+.content-Card {
+  padding: 30px;
+}
+.content-social {
+  padding: 30px;
+}
+
+.Title {
+  text-align: left;
+}
+
+.LogoSite {
+  padding-top: 100px;
+  width: 50vh;
+}
+
+.ImgLine {
+  padding-left: 20px;
+}
