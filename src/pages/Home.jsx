@@ -4,6 +4,7 @@ import ReseauxSociaux from "../components/ReseauxSociaux";
 import LogoSite from "../img/LogoqueTeznapasfaitLOL.png";
 import Line1 from "../assets/line-1-2@1x.svg";
 import Line2 from "../assets/line-1-2@2x.svg";
+import LargeArticle from "../components/articlesCards/LargeArticle";
 
 const Home = () => {
   return (
