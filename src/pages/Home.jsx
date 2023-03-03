@@ -5,6 +5,8 @@ import LogoSite from "../img/LogoqueTeznapasfaitLOL.png";
 import Line1 from "../assets/line-1-2@1x.svg";
 import Line2 from "../assets/line-1-2@2x.svg";
 import LargeArticle from "../components/articlesCards/LargeArticle";
+import SocialMedia from "../components/SocialMedia";
+import ArticleList from "../components/ArticleList";
 
 const Home = () => {
   return (
@@ -17,15 +19,12 @@ const Home = () => {
         <div className="content-Card">
           <div className="Title montserrat-bold-black-32px">
             Nos derniers articles
-            <img src={Line1} className="ImgLine" alt="" />
           </div>
+          <ArticleList />
         </div>
         <div className="content-social">
-          <div className="Title montserrat-bold-black-32px">
-            Rejoins-nous !
-            <img src={Line2} className="ImgLine" alt="" />
-          </div>
-          <ReseauxSociaux />
+          <div className="Title montserrat-bold-black-32px">Rejoins-nous !</div>
+          <SocialMedia />
         </div>
       </div>
     </div>

@@ -1,0 +1,97 @@
+.containerSocialMedia {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; /* Tous les éléments enfants s'étirent pour occuper toute la hauteur */
+}
+
+.colonne1SocialMedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* alignement vertical en haut */
+  flex-grow: 20; /* colonne 1 prend 2 parts */
+  padding: 1em;
+  /* background-color: #eee; */
+}
+
+.colonne2SocialMedia {
+  flex-grow: 1; /* colonne 2 prend 1 part */
+}
+
+.image-texteSocialMedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* alignement vertical en haut */
+  margin-bottom: 1em;
+}
+.image-texteSocialMedia p {
+  font-size: 1.6em;
+  color: black;
+}
+
+.image-texteSocialMedia img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* redimensionne l'image tout en conservant les proportions */
+  align-self: flex-start; /* positionnement en haut */
+  border-radius: 1em;
+}
+
+.reseaux-sociaux {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reseaux-sociaux a {
+  margin: 0 0.5em;
+  font-size: 1em; /* nouvelle taille de police pour les logos */
+}
+.reseaux-sociaux img {
+  margin: 0 0.6em;
+}
+.reseaux-sociaux img.RéseauxSpecial {
+  width: 5em;
+}
+.reseaux-sociaux img.DiscordSpecial {
+  width: 15em;
+}
+
+@media (max-width: 1250px) {
+  .containerSocialMedia {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .colonne1SocialMedia {
+    flex-grow: 1; /* colonne 1 prend 1 part */
+    width: 100%;
+  }
+
+  .colonne2SocialMedia {
+    flex-grow: 1; /* colonne 2 prend 1 part */
+    width: 100%;
+    align-items: center;
+  }
+
+  .reseaux-sociaux a {
+    margin: 0 0.5em;
+    font-size: 1em; /* nouvelle taille de police pour les logos */
+  }
+  .reseaux-sociaux img {
+    margin: 0 0.6em;
+  }
+  .reseaux-sociaux img.RéseauxSpecial {
+    width: 2em;
+  }
+  .reseaux-sociaux img.DiscordSpecial {
+    width: 10em;
+  }
+
+  .image-texteSocialMedia p {
+    font-size: 1.1em;
+  }
+}
