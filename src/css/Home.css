@@ -30,8 +30,23 @@
   padding: 30px;
 }
 
+.TitleWrapper {
+  display: flex;
+  align-items: center;
+}
+
 .Title {
   text-align: left;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.TitleLine {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #000;
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
 
 .LogoSite {
@@ -41,6 +56,31 @@
 
 .ImgLine {
   padding-left: 20px;
+}
+
+.article-list-wrapper {
+  position: relative;
+}
+
+.view-more-link {
+  position: absolute;
+  right: 0;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #000;
+  transition: background-color 0.3s ease;
+}
+
+.view-more-link:hover span {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.view-more-link p {
+  display: inline-block;
+}
+
+.view-more-link span {
+  background-color: transparent;
 }
 
 @media only screen and (max-width: 1720px) {

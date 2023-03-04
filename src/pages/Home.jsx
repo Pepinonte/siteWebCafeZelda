@@ -7,6 +7,7 @@ import Line2 from "../assets/line-1-2@2x.svg";
 import LargeArticle from "../components/articlesCards/LargeArticle";
 import SocialMedia from "../components/SocialMedia";
 import ArticleList from "../components/ArticleList";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -17,10 +18,28 @@ const Home = () => {
 
       <div className="BodySite brandontext-bold-white-16px">
         <div className="content-Card">
-          <div className="Title montserrat-bold-black-32px">
-            Nos derniers articles
+          <div className="TitleWrapper">
+            <div className="Title montserrat-bold-black-32px">
+              Nos derniers articles
+            </div>
+            <div className="TitleLine"></div>
           </div>
-          <ArticleList />
+
+          <div className="article-list-wrapper">
+            <ArticleList />
+
+            <div className="view-more-link">
+              <NavLink
+                className="navlink"
+                style={{ textDecoration: "none", color: "inherit" }}
+                to="/LesArticles"
+              >
+                <p>
+                  <span>Voir plus d'articles&nbsp;&nbsp;&rarr;</span>
+                </p>
+              </NavLink>
+            </div>
+          </div>
         </div>
         <div className="content-social">
           <div className="Title montserrat-bold-black-32px">Rejoins-nous !</div>
