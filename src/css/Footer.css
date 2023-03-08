@@ -1,0 +1,40 @@
+.Footer {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  margin: 5em 0 -20px 0;
+}
+
+.navbar-link {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  width: fit-content;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+}
+
+.reseaux-sociaux-Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.reseaux-sociaux-Footer a {
+  margin: 0 0.2em;
+  font-size: 1em; /* nouvelle taille de police pour les logos */
+}
+.reseaux-sociaux-Footer img {
+  margin: 0 0.6em;
+}
+.reseaux-sociaux-Footer img.RéseauxSpecial {
+  width: 2em;
+}

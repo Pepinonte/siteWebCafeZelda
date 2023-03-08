@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import CafeZelda from "./pages/CafeZelda";
 import Articles from "./pages/Articles";
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/LesArticles" element={<Articles />} />
         <Route path="*" element={<Home />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

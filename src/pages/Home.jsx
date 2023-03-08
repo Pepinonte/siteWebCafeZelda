@@ -42,7 +42,13 @@ const Home = () => {
           </div>
         </div>
         <div className="content-social">
-          <div className="Title montserrat-bold-black-32px">Rejoins-nous !</div>
+          <div className="TitleWrapper">
+            <div className="Title montserrat-bold-black-32px">
+              Rejoins-nous !
+            </div>
+            <div className="TitleLine"></div>
+          </div>
+
           <SocialMedia />
         </div>
       </div>

@@ -18,6 +18,7 @@ import TwitterLogo from "../img/reseaux/Twitter_Bird.png";
 import InstagramLogo from "../img/reseaux/Instagram.png";
 import TumblrLogo from "../img/reseaux/Tumblr.png";
 import DiscordLogo from "../img/reseaux/discord-logo-blue.png";
+import TiktokLogo from "../img/reseaux/LogoTiktok.png";
 
 const SocialMedia = () => {
   return (
@@ -28,7 +29,7 @@ const SocialMedia = () => {
           <p>Le Café Zelda est aussi présent sur les réseaux sociaux !</p>
         </div>
         <div className="reseaux-sociaux">
-          <a href="https://twitter.com/mon-compte-twitter">
+          <a href="https://twitter.com/cafezelda">
             <img
               src={TwitterLogo}
               alt="Twitter du Café Zelda"
@@ -36,7 +37,15 @@ const SocialMedia = () => {
             />
             {/* <FaTwitter /> */}
           </a>
-          <a href="https://www.instagram.com/mon-compte-instagram/">
+          <a href="https://www.tiktok.com/@cafezelda">
+            <img
+              src={TiktokLogo}
+              alt="Tiktok du Café Zelda"
+              class="RéseauxSpecial"
+            />
+            {/* <FaTwitter /> */}
+          </a>
+          <a href="https://www.instagram.com/lecafezelda">
             <img
               src={InstagramLogo}
               alt="Instagram du Café Zelda"
@@ -44,7 +53,7 @@ const SocialMedia = () => {
             />
             {/* <FaInstagram /> */}
           </a>
-          <a href="https://mon-compte-tumblr.tumblr.com/">
+          <a href="https://cafezelda.tumblr.com/">
             <img
               src={TumblrLogo}
               alt="Tumblr du Café Zelda"
@@ -52,7 +61,7 @@ const SocialMedia = () => {
             />
             {/* <FaTumblr /> */}
           </a>
-          <a href="https://discord.com/invite/mon-serveur-discord">
+          <a href="https://discord.gg/cafezelda">
             <img
               src={DiscordLogo}
               alt="Discord du Café Zelda"

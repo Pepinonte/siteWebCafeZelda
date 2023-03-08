@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css?familly=Montserrat:400,700,600,700italic|Jost:700|Roboto:700,700italic");
 
-.HomePage {
-}
-
 .ImgLogo {
   position: relative;
   border-radius: 1em;
@@ -21,7 +18,6 @@
   border-radius: 1em;
   margin-top: -5px;
   z-index: 5;
-  padding-bottom: 50%;
 }
 .content-Card {
   padding: 30px;
