@@ -25,6 +25,11 @@
   --font-family-roboto: "Roboto";
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* Classes */
 
 .montserrat-semi-bold-white-16px {
