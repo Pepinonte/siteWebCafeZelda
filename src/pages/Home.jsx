@@ -25,7 +25,7 @@ const Home = () => {
             <div className="TitleLine"></div>
           </div>
 
-          <div className="article-list-wrapper">
+          <div className="article-list-wrapper montserrat-bold-black-20px">
             <ArticleList />
 
             <div className="view-more-link">

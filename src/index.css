@@ -21,7 +21,7 @@
   --font-family-brandon_text-bold: "Brandon Text-Bold";
   --font-family-brandon_text-regular: "Brandon Text-Regular";
   --font-family-jost: "Jost";
-  --font-family-montserrat: "Montserrat";
+  --font-family-montserrat: "Montserrat", sans-serif;
   --font-family-roboto: "Roboto";
 }
 

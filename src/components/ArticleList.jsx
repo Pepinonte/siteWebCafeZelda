@@ -66,7 +66,7 @@ const ArticleList = () => {
 
         if (index === 0) {
           // Premier article, occupe 2 colonnes
-          gridClass = "grid-item-1-2";
+          gridClass = "grid-item-1";
           colSpan = 2;
         } else if (index === 1) {
           // Deuxième article, occupe 1 colonne
@@ -91,10 +91,10 @@ const ArticleList = () => {
           <div
             className={`grid-item ${gridClass}`}
             key={article.id}
-            style={{
-              gridRow: `span ${rowSpan}`,
-              gridColumn: `span ${colSpan}`,
-            }}
+            // style={{
+            //   gridRow: `span ${rowSpan}`,
+            //   gridColumn: `span ${colSpan}`,
+            // }}
           >
             <LargeArticle
               title={article.title}
