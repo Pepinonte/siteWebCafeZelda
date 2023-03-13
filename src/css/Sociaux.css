@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?familly=Montserrat:400,700,600,700italic|Jost:700|Roboto:700,700italic");
+
+.ContainerRejoignezNous {
+  align-items: center;
+
+  gap: 5em;
+
+  width: fit-content;
+}
+
+.rseauxmessage {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  height: 300px;
+  min-width: 700px;
+}
+
+.overlap-group {
+  display: flex; /* utilisez flexbox pour aligner les éléments horizontalement */
+  align-items: center; /* centrez les éléments verticalement */
+  flex-flow: column;
+}
+
+.LogoReseauLink {
+  height: 100%;
+  left: 0;
+
+  position: relative;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 1em;
+}
+
+.rectangle-6 {
+  height: 100%;
+  background-color: var(--blackOpacity9);
+  backdrop-filter: blur(7.5px);
+  width: 100%;
+}
+
+.surname {
+  text-align: center; /* centrez le texte horizontalement */
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-style: italic;
+  font-weight: 700;
+
+  position: relative;
+
+  width: 100%;
+}
+
+.social-icon-lg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2vw;
+  align-items: center;
+  width: 100%;
+}
+
+.twitter,
+.instagram,
+.tumblr,
+.discord {
+  position: relative;
+  height: 100px;
+  min-width: 100px;
+}
+
+.vector {
+  height: 64px;
+  left: 15px;
+  position: absolute;
+  top: 19px;
+  width: 72px;
+}
+
+.instagram-vector {
+  height: 74px;
+  left: 16px;
+  position: absolute;
+  top: 14px;
+  width: 71px;
+}
+
+.tumblr-vector {
+  height: 74px;
+  left: 16px;
+  position: absolute;
+  top: 14px;
+  width: 71px;
+}
+
+.discord-logo-white-1 {
+  height: 58px;
+  left: 16px;
+  position: absolute;
+  top: 22px;
+  width: 309px;
+}

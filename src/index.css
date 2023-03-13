@@ -1,10 +1,13 @@
+@import url("https://fonts.googleapis.com/css?familly=Montserrat:400,700,600,700italic|Jost:700|Roboto:700,700italic");
+
 /* Variable + background */
 :root {
-  background-image: url("./img/FondSite.jpg");
+  background-image: url("./img/FondSiteLeTest2.png");
   background-attachment: fixed;
   background-size: cover;
 
   --black-2: rgba(0, 0, 0, 0.502);
+  --blackOpacity9: rgba(0, 0, 0, 0.8);
   --black: rgba(0, 0, 0, 1);
   --white: rgba(255, 255, 255, 1);
 
@@ -18,8 +21,13 @@
   --font-family-brandon_text-bold: "Brandon Text-Bold";
   --font-family-brandon_text-regular: "Brandon Text-Regular";
   --font-family-jost: "Jost";
-  --font-family-montserrat: "Montserrat";
+  --font-family-montserrat: "Montserrat", sans-serif;
   --font-family-roboto: "Roboto";
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 /* Classes */

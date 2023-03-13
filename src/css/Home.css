@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?familly=Montserrat:400,700,600,700italic|Jost:700|Roboto:700,700italic");
+
+.ImgLogo {
+  position: relative;
+  border-radius: 1em;
+  text-align: center;
+
+  margin-top: 10px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.BodySite {
+  margin: 0px 300px 0px 300px;
+  position: relative;
+  background-color: #ffffff;
+  opacity: 1;
+  border-radius: 1em;
+  margin-top: -5px;
+  z-index: 5;
+}
+.content-Card {
+  padding: 30px;
+}
+.content-social {
+  padding: 30px;
+}
+
+.TitleWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.Title {
+  text-align: left;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.TitleLine {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #000;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.LogoSite {
+  padding-top: 100px;
+  width: 50vh;
+}
+
+.ImgLine {
+  padding-left: 20px;
+}
+
+.article-list-wrapper {
+  position: relative;
+}
+
+.view-more-link {
+  position: absolute;
+  right: 0;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #000;
+  transition: background-color 0.3s ease;
+}
+
+.view-more-link:hover span {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.view-more-link p {
+  display: inline-block;
+}
+
+.view-more-link span {
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 1720px) {
+  .BodySite {
+    margin: 0 9%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .BodySite {
+    margin: 0 5%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .BodySite {
+    margin: 0;
+  }
+}
