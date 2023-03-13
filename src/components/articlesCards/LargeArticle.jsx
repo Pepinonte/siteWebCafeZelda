@@ -16,12 +16,12 @@ const LargeArticle = (props) => {
       <div className="card-large-content">
         <div className="card-large-title">{title}</div>
         <div className="card-large-author">
+          <span className="card-large-author-name">{authorName}</span>
           <img
             src={authorPhoto}
-            alt={authorName}
+            alt="photo"
             className="card-large-author-photo"
           />
-          <span className="card-large-author-name">{content}</span>
         </div>
       </div>
       <p></p>

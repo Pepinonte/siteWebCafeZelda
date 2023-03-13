@@ -9,6 +9,10 @@ import fondTiggle from "../img/imgtest/Tiggle.png";
 import fondCaca from "../img/imgtest/Caca.png";
 import fondMort from "../img/imgtest/Detruit.png";
 
+import PPAmro from "../img/PP/Amro.jpg";
+import PPTez from "../img/PP/Tez.jpg";
+import PPMarnie from "../img/PP/Marnie.jpg";
+
 const ArticleList = () => {
   // On crée une liste d'articles en local
   const articles = [
@@ -17,6 +21,7 @@ const ArticleList = () => {
       title: "Analyses et théories sur le dernier épisode des Teletubies",
       content: "bizarre le type",
       autheur: "Legonde",
+      ppauteur: PPAmro,
       backgroundImage: fondTeletubbies,
     },
     {
@@ -24,6 +29,7 @@ const ArticleList = () => {
       title: "Officiel: Wind Waker HD sur Nintendo Switch n'existera pas !",
       content: "Jvais me faire taper moi",
       autheur: "Askip",
+      ppauteur: PPTez,
       backgroundImage: fondpasSwitch,
     },
     {
@@ -31,6 +37,7 @@ const ArticleList = () => {
       title: "Le jour où je suis devenu le caca de LionRouge",
       content: "ptdr hein",
       autheur: "Marnie",
+      ppauteur: PPMarnie,
       backgroundImage: fondCaca,
     },
     {
@@ -38,6 +45,7 @@ const ArticleList = () => {
       title: "Ivre il détruit ses travailleurs",
       content: "jme suis fait bully",
       autheur: "Gonni",
+      ppauteur: PPAmro,
       backgroundImage: fondMort,
     },
     {
@@ -45,7 +53,7 @@ const ArticleList = () => {
       title: "Je suis terrifié à l'idée même que Tingle existe",
       content: "le boug",
       autheur: "Nebu",
-
+      ppauteur: PPAmro,
       backgroundImage: fondTiggle,
     },
     {
@@ -53,6 +61,7 @@ const ArticleList = () => {
       title: "Une fanatique de Wind Waker harcèle Nintendo sur Twitter",
       content: "ça va faire 1 an mdr",
       autheur: "Lion Rouge",
+      ppauteur: PPAmro,
       backgroundImage: fondTetra,
     },
   ];
@@ -100,6 +109,7 @@ const ArticleList = () => {
               title={article.title}
               content={article.content}
               authorName={article.autheur}
+              authorPhoto={article.ppauteur}
               backgroundImage={article.backgroundImage}
             />
           </div>
