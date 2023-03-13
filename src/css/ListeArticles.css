@@ -58,11 +58,11 @@
   position: relative;
 }
 
-.Noview-more-link {
+.Noview-more-linkAll {
   display: none;
 }
 
-.view-more-link {
+.view-more-linkAll {
   display: flex;
   position: relative;
   text-align: center;
@@ -71,7 +71,7 @@
 
   transition: background-color 0.3s ease;
 }
-.view-more-link button {
+.view-more-linkAll button {
   color: #fff;
   border: none;
   background: #3a3a3a;
