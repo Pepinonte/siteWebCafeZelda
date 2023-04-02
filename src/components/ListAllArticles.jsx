@@ -89,7 +89,7 @@ const AllArticleList = () => {
       </div>
       <div
         className={
-          NbArticlesAffiche > 40 ? "view-more-link" : "Noview-more-link"
+          NbArticlesAffiche > 40 ? "view-more-linkAll" : "Noview-more-linkAll"
         }
       >
         <button onClick={handleViewMore}>Voir plus d'articles</button>
